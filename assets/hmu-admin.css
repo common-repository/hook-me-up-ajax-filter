@@ -1,0 +1,40 @@
+.block--shop_filter {
+    width: 100%;
+    max-width: 400px;
+}
+.taxonomy-label {
+
+}
+.tax-children {
+
+    margin-top: 10px;
+    width: 95%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+.tax-parent {
+    margin-bottom: 20px;
+
+
+}
+.tax-children input, .tax-parent input {
+    float: right;
+    margin: 0;
+}
+.hmu_delete_wrapper {
+    padding: 30px 5px;
+}
+.hmu_delete_wrapper a{
+   color: red;
+}
+.tab-active {
+    border-bottom: 1px solid #f1f1f1;
+    background: #f1f1f1;
+    color: #000;
+    margin-bottom: -1px;
+    border-bottom: none;
+    margin-left: .5em;
+    padding: 6px 10px;
+    font-size: 14px;
+    line-height: 24px
+}

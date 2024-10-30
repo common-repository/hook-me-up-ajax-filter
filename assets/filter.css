@@ -1,0 +1,91 @@
+.hmu-filter {
+    position: relative;
+}
+.hmu-container {
+    width: 100%;
+    margin: auto;
+    min-width: 200px;
+}
+.hmu-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+   width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.hmu_filter_attributes {
+    height: 20px;
+    max-width: 50px;
+    width: 100%;
+}
+.hmu_select_wrapper {
+    height: 50px;
+    margin: 30px auto;
+}
+.hmu_select_wrapper select {
+    margin-bottom: 30px;
+}
+.hmucol-md-10 {
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+}
+.hmucol-md-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+}
+.hmucol-sm-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+}
+.hmucol-sm-10 {
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+}
+@media(max-width: 991px) {
+    .hmu_filter_attributes {
+        float: left;
+    }
+}
+.disabled {
+    opacity: 0.2;
+}
+.hmu-active label, .hmu-active span {
+    opacity: 0.7;
+}
+.hmu-hide-input {
+    visibility: hidden;
+    opacity: 0;
+}
+.hmu-label {
+    cursor: pointer;
+}
+/*
+ * loader
+ */
+
+.hmu-loader{
+    display: block;
+    width: 0;
+    height: 3px;
+    position: fixed;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    background: red;
+    z-index: 999999;
+    transition: width .3s;
+}
+
+.hmu-loader.hide {
+    opacity: 0;
+    transition: opacity 1.3s;
+}
